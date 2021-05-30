@@ -1,0 +1,74 @@
+.autotags{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: stretch;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  .autotags-input{
+    flex:1;
+    outline: none;
+    border: none;
+    height: 35px;
+    font-size: 1rem;
+  }
+  
+  .tags{
+    width: fit-content;
+    height: 25px;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: stretch;
+    margin: 10px;
+  }
+  
+  .tags:hover{
+    background-color: grey;
+  }
+  
+  .tag-title{
+    margin: auto 5px;
+  }
+  
+  .tag-cross{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .tag-cross:hover{
+    font-weight: bold;
+  }
+  
+  .tag-cross:hover{
+    font-weight: normal;
+  }
+  
+  .autocompletion{
+    position:absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+  }
+  
+  .suggestion{
+    text-align: center;
+    color: grey;
+    height: 30px;
+  }
